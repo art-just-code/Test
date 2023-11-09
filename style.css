@@ -1,14 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:wght@500;600&display=swap');
+
 body {
     margin: 0;
 }
 
-header {
-    display: flex;
-    justify-content: center;
+.container {
     width: 100%;
-    background-color: black;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.header-logo-title {
-    color: white;
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #FFFFFF;
+}
+
+.header-logo {
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.header-logo__title {
+    color: #121723;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header-logo__span {
+    color: #004cff;
 }
